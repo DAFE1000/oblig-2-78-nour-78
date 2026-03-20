@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 def likning(x):
     return np.arctan(x) - 4/(x**2 +1)
 
-# Original funksjon
+#funksjon
 def f(x):
     return np.exp(-x/4) * np.arctan(x)
 
-# Startverdi
+# startverdi
 x0 = 0.2
 
 # Løs likning
@@ -20,7 +20,7 @@ x = løsning[0]
 # Finn y-verdi
 y = f(x)
 
-# Print med 4 desimaler ✅
+# fire demsimaler
 print(f"x = {x:.4f}")
 print(f"y = {y:.4f}")
 
